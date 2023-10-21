@@ -1,0 +1,33 @@
+.nav-container {
+    width: calc(100%-20px);
+    height: auto;
+}
+
+.navbar {
+    background-color: slategrey;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover {
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, .6);
+    background-color: slategrey;
+    color: white;
+}
